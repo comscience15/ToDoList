@@ -32,7 +32,7 @@ Getting position on selected ListView:
  
 Walkthrough of all users stories:
 
-![Image](https://github.com/comscience15/ToDoList/todolist.gif)
+![Video Walkthrough](todolist.gif)
 
 GIF created with [LiceCap]
 
