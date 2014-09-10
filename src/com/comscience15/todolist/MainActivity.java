@@ -107,9 +107,6 @@ public class MainActivity extends ActionBarActivity {
 	protected void onActivityResult(int request, int result, Intent data) {
 		if (result == RESULT_OK && request == REQUEST_CODE){
 			String name = data.getExtras().getString("Item name");
-//			int pos = lvItem.getLastVisiblePosition();
-//			View view = lvItem.getChildAt(pos - lvItem.getFirstVisiblePosition());
-//			lvItem.getAdapter().getView(pos, view, lvItem);
 			Toast.makeText(this, name, Toast.LENGTH_SHORT).show();
 
 			todoItem.set(pos, name);
